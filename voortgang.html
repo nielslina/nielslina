@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teamwebsite Niels en Lina</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+			</div>   
+			<div class="single-page-nav sticky-wrapper" id="tmNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html" onclick="location.replace('index.html'),'_top'">Homepage</a></li>
+					<li><a href="over_ons.html" onclick="location.replace('over_ons.html'),'_top'">Over Ons</a></li>
+					<li><a href="project.html" onclick="location.replace('project.html'),'_top'">Project</a></li>
+					<li><a href="voortgang.html" onclick="location.replace('voortgang.html'),'_top'">Voortgang</a></li>
+					<li><a href="https://drive.google.com/drive/folders/1kE18Yo9kwZhZ4iX8NoHxE8J_GLF_X3x-" class="external" target="_blank">Google Drive</a></li>
+				</ul>
+			</div>   
+		</div>
+	</nav>
+
+
+					<!-- Start Testimornial Area -->
+					<section id="testimornial-area">
+						<div class="container">
+				<div id="section4">
+					<div class="col-lg-12">
+						<div class="col-sm-12 text-center inner our-service">
+							<h1>Voortgang</h1>
+						</div>
+						<div class="tm-box">
+							<!--<img src="img/4-5.jpg" alt="Image" class="img-responsive">-->
+							<div class="tm-box-description">
+								<h3>Week 1, 29 oktober 2018 - 2 november 2018</h3>
+								<p class="tm-box-p">Wij zijn van start gegaan met ons project! We zullen de komende periode 3 dagen per week bij QConcepts aanwezig zijn. Vooraf hebben wij ons Plan van Aanpak opgestuurd en besproken.</p>
+								<!--<a href="#" class="content-link">Read More</a> -->
+								
+								<h3>Week 2, 5 november 2018 - 9 november 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+								
+								<h3>Week 3, 12 november 2018 - 16 november 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+								
+								<h3>Week 4, 19 november 2018 - 23 november 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+								
+								<h3>Week 5, 26 november 2018 - 30 november 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+								
+								<h3>Week 6, 3 december 2018 - 7 december 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+								
+								<h3>Week 7, 10 december 2018 - 14 december 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+								
+								<h3>Week 8, 17 december 2018 - 21 december 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+								
+								<h3>Week 9, 7 januari 2018 - 11 januari 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+								
+								<h3>Week 10, 14 januari 2018 - 18 januari 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+								
+								<h3>Afsluiting, 21 januari 2018 - 25 januari 2018</h3>
+								<p class="tm-box-p">Lorem ipsum </p>
+							</div>                        
+						</div>                    
+					</div>
+				</div> 
+				
+						</div>
+				
+					</section>
+				
+					<!-- End Testimornial Area -->
+	
+	
+					<!-- Start Footer Area -->
+					<footer id="footer-area">
+						<div class="container">
+							<div class="row text-center">
+								<div class="col-sm-12">
+									<div class="footer-content">
+										<h1></h1>
+										<p></p>
+										</div>                
+									</div>
+								</div>
+							</div>
+							<hr>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">             
+										<p class="copy">Copyright © Lina Seljogi
+                                        
+                                        | Niels van Vals
+									</div>
+								</div>
+							</div>
+						</footer>
+						<!-- End Footer Area -->
+
+						<script src="js/jquery-1.11.2.min.js"></script>
+						<script src="js/jquery.scrollUp.min.js"></script> <!-- https://github.com/markgoodyear/scrollup -->
+						<script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+						<script src="js/parallax.js-1.3.1/parallax.js"></script> <!-- http://pixelcog.github.io/parallax.js/ -->
+						<script>
+    // HTML document is loaded. DOM is ready.
+    $(function() {  
+    // Parallax
+        $('.intro-section').parallax({
+        	imageSrc: 'img/bg-1.jpg',
+        	speed: 0.2
+        });
+        $('.services-section').parallax({
+        	imageSrc: 'img/bg-2.jpg',
+        	speed: 0.2
+    	});
+        $('.contact-section').parallax({
+        	imageSrc: 'img/bg-3.jpg',
+        	speed: 0.2
+        });    
+        // jQuery Scroll Up / Back To Top Image
+        $.scrollUp({
+                scrollName: 'scrollUp',      // Element ID
+		        scrollDistance: 300,         // Distance from top/bottom before showing element (px)
+		        scrollFrom: 'top',           // 'top' or 'bottom'
+		        scrollSpeed: 1000,            // Speed back to top (ms)
+		        easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+		        animation: 'fade',           // Fade, slide, none
+		        animationSpeed: 300,         // Animation speed (ms)		        
+		        scrollText: '', // Text for element, can contain HTML		        
+		        scrollImg: true            // Set true to use image		        
+            });
+        // ScrollUp Placement
+        $( window ).on( 'scroll', function() {
+            // If the height of the document less the height of the document is the same as the
+            // distance the window has scrolled from the top...
+            if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
+                // Adjust the scrollUp image so that it's a few pixels above the footer
+                $('#scrollUp').css( 'bottom', '80px' );
+            } else {      
+                // Otherwise, leave set it to its default value.
+                $('#scrollUp').css( 'bottom', '30px' );        
+            }
+        });
+        $('.single-page-nav').singlePageNav({
+        	offset: $('.single-page-nav').outerHeight(),
+        	speed: 1500,
+        	filter: ':not(.external)',
+        	updateHash: true
+        });
+        $('.navbar-toggle').click(function(){
+        	$('.single-page-nav').toggleClass('show');
+        });
+        $('.single-page-nav a').click(function(){
+        	$('.single-page-nav').removeClass('show');
+        });
+        
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teamwebsite Niels en Lina</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+			</div>   
+			<div class="single-page-nav sticky-wrapper" id="tmNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html" onclick="location.replace('index.html'),'_top'">Homepage</a></li>
+					<li><a href="over_ons.html" onclick="location.replace('over_ons.html'),'_top'">Over Ons</a></li>
+					<li><a href="project.html" onclick="location.replace('project.html'),'_top'">Project</a></li>
+					<li><a href="voortgang.html" onclick="location.replace('voortgang.html'),'_top'">Voortgang</a></li>
+					<li><a href="https://drive.google.com/drive/folders/1kE18Yo9kwZhZ4iX8NoHxE8J_GLF_X3x-" class="external" target="_blank">Google Drive</a></li>
+				</ul>
+			</div>   
+		</div>
+	</nav>
+
+
+<!-- Start Blog Area -->
+		<section id="blog-area">
+			<div class="container" id="section2">
+				<div class="row text-center inner">
+					<div class="col-sm-6">
+						<div class="blog-content">
+							<img src="img/2-1.jpg" alt="Image">
+							<h2>Over Niels</h2>
+							<p>Hoi! Mijn naam is Niels van Vals en ik ben een technische bedrijfskundige student aan de Avans Hogeschool te 's-Hertogenbosch. Ik ben deze minor (Smart Industry) gaan volgen om meer te leren op technologisch gebied, omdat dit ontbrak bij mijn eigen opleiding. Ik ben altijd gefascineerd geweest met de mogelijkheden van ICT en Robotica, dus deze minor was ideaal voor mij. Na deze minor ga ik bij een van de Mars fabrieken afstuderen in het buitenland, en dan hoop ik zoveel mogelijk kennis te hebben op het gebied van de techniek kant. Hieronder is een knop te vinden die je naar mijn persoonlijk portfolio leid. Dit portfolio / deze website dient als een soort van 'logboek' waar ik bijhoud wat ik allemaal gedaan heb tijdens de Minor. Echter mijn volledig portfolio (competentiepunten) zijn op deze website te vinden onder het kopje "Project"!</p>
+									<span><a href="https://nielsvvals.github.io/webdevmsi/" target="_blank">Ga naar portfolio</a></span><br>
+									<p id="blofr"></p>
+
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="blog-content">
+								<img src="img/2-2.jpg" alt="Image">
+								<h2>Over Lina</h2>
+								<p> Mijn naam is Lina en ik studeer ICT aan de HAN in Arnhem. Ik volg de minor Smart Industry omdat ik mijn kennis wil verbreden over Smart innovaties in de businesswereld. Ik heb binnen mijn opleiding gekozen voor het profiel Infrastructure, Security & Management, ik ga binnenkort starten met mijn afstudeerscriptie en zou na mijn afstuderen gelijk aan het werk willen in een ICT-bedrijf. Daarbij wil ik graag zoveel mogelijk kennis meenemen die ik bij de minor heb opgedaan. Onderstaande knop verwijst naar mijn portfolio waarin ik mijn ervaringen binnen de minor beschrijf en aangeef aan welke competenties ik werk. </p>
+									<span><a href="https://linaseljogi.github.io/webdevmsi/" target="_blank">Ga naar portfolio</a></span><br><br>
+									<p id="blofr"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End Blog Area -->
+	
+	
+					<!-- Start Footer Area -->
+					<footer id="footer-area">
+						<div class="container">
+							<div class="row text-center">
+								<div class="col-sm-12">
+									<div class="footer-content">
+										<h1></h1>
+										<p></p>
+										</div>                
+									</div>
+								</div>
+							</div>
+							<hr>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">             
+										<p class="copy">Copyright © Lina Seljogi
+                                        
+                                        | Niels van Vals
+									</div>
+								</div>
+							</div>
+						</footer>
+						<!-- End Footer Area -->
+
+						<script src="js/jquery-1.11.2.min.js"></script>
+						<script src="js/jquery.scrollUp.min.js"></script> <!-- https://github.com/markgoodyear/scrollup -->
+						<script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+						<script src="js/parallax.js-1.3.1/parallax.js"></script> <!-- http://pixelcog.github.io/parallax.js/ -->
+						<script>
+    // HTML document is loaded. DOM is ready.
+    $(function() {  
+    // Parallax
+        $('.intro-section').parallax({
+        	imageSrc: 'img/bg-1.jpg',
+        	speed: 0.2
+        });
+        $('.services-section').parallax({
+        	imageSrc: 'img/bg-2.jpg',
+        	speed: 0.2
+    	});
+        $('.contact-section').parallax({
+        	imageSrc: 'img/bg-3.jpg',
+        	speed: 0.2
+        });    
+        // jQuery Scroll Up / Back To Top Image
+        $.scrollUp({
+                scrollName: 'scrollUp',      // Element ID
+		        scrollDistance: 300,         // Distance from top/bottom before showing element (px)
+		        scrollFrom: 'top',           // 'top' or 'bottom'
+		        scrollSpeed: 1000,            // Speed back to top (ms)
+		        easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+		        animation: 'fade',           // Fade, slide, none
+		        animationSpeed: 300,         // Animation speed (ms)		        
+		        scrollText: '', // Text for element, can contain HTML		        
+		        scrollImg: true            // Set true to use image		        
+            });
+        // ScrollUp Placement
+        $( window ).on( 'scroll', function() {
+            // If the height of the document less the height of the document is the same as the
+            // distance the window has scrolled from the top...
+            if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
+                // Adjust the scrollUp image so that it's a few pixels above the footer
+                $('#scrollUp').css( 'bottom', '80px' );
+            } else {      
+                // Otherwise, leave set it to its default value.
+                $('#scrollUp').css( 'bottom', '30px' );        
+            }
+        });
+        $('.single-page-nav').singlePageNav({
+        	offset: $('.single-page-nav').outerHeight(),
+        	speed: 1500,
+        	filter: ':not(.external)',
+        	updateHash: true
+        });
+        $('.navbar-toggle').click(function(){
+        	$('.single-page-nav').toggleClass('show');
+        });
+        $('.single-page-nav a').click(function(){
+        	$('.single-page-nav').removeClass('show');
+        });
+        
+    });
+</script>
+</body>
+</html>
