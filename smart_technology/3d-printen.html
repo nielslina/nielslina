@@ -23,15 +23,16 @@
 			</div>   
 			<div class="single-page-nav sticky-wrapper" id="tmNavbar">
 				<ul class="nav navbar-nav">
-					<li><a href="../index.html" onclick="location.replace('index.html'),'_top'">Homepage</a></li>
-					<li><a href="../over_ons.html" onclick="location.replace('over_ons.html'),'_top'">Over Ons</a></li>
-					<li><a href="../project.html" onclick="location.replace('project.html'),'_top'">Project</a></li>
-					<li><a href="../voortgang.html" onclick="location.replace('voortgang.html'),'_top'">Voortgang</a></li>
+					<li><a href="../index.html#homepage" onclick="location.replace('../index.html#homepage')">Homepage</a></li>
+					<li><a href="../index.html#over_ons" onclick="location.replace('../index.html#over_ons')">Over Ons</a></li>
+					<li><a href="../index.html#smart_onderdelen" onclick="location.replace('../index.html#smart_onderdelen')">Smart Onderdelen</a></li>
+					<li><a href="../index.html#voortgang" onclick="location.replace('../index.html#voortgang')">Voortgang</a></li>
 					<li><a href="https://drive.google.com/drive/folders/1kE18Yo9kwZhZ4iX8NoHxE8J_GLF_X3x-" class="external" target="_blank">Google Drive</a></li>
 				</ul>
 			</div>   
 		</div>
 	</nav>
+
 
 
 	
@@ -48,7 +49,96 @@
 						<div class="tm-box">
 							<!--<img src="img/4-5.jpg" alt="Image" class="img-responsive">-->
 							<div class="tm-box-description">
-								<p class="tm-box-p">...</p>
+								<p class="tm-box-p">
+								<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Voor het vak Smart
+Technology hebben wij enkele workshops 3D printing gevolgd. Hierin
+leerden wij de benodigde informatie om een electronica behuizing voor
+onze Arduino IDE te ontwerpen. De concrete opdracht beschrijving is
+als volgt:</P>
+<UL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Ontwerp met
+	SolidWorks een electronica behuizing waarin een microprocessor,
+	sensor(s), Wifi-module en evt display kunnen worden ondergebracht.</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Maak een prototype
+	met de FDM printtechniek en integreer de elektronische componenten
+	in de behuizing.</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Maak een
+	ontwerpverslag waarin je methodiek/aanpak en het resultaat duidelijk
+	wordt gemaakt.</P>
+</UL>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Hoe het ontwerp er uit mocht komen te
+zien was volledig aan ons, zolang het maar aan een aantal
+randvoorwaarden voldeed. Deze randvoorwaarden zijn in ons volledig
+ontwerpverslag te vinden. <a href="https://docs.google.com/document/d/1YodtSSqtyUAUyVv60KQ3pFaWttlgQoKUOLQrtXNuKnw">Klik hier</a> voor ons volledig ontwerpverslag. <P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Wij hebben met
+Clickfingers gewerkt om het doosje goed dicht te maken. Dit ziet er
+als volgt uit:</P>
+<P STYLE="margin-bottom: 0in"><IMG SRC="ST71_Samenvatting_3D_printen_html_2f4adbc5.png" NAME="image2.png" ALIGN=BOTTOM HSPACE=12 VSPACE=12 WIDTH=568 HEIGHT=235 BORDER=0></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">Ons eindresultaat ziet er zo uit:</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><IMG SRC="ST71_Samenvatting_3D_printen_html_b0a0f3fe.png" NAME="image1.png" ALIGN=BOTTOM HSPACE=12 VSPACE=12 WIDTH=603 HEIGHT=345 BORDER=0></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+
+<P STYLE="margin-bottom: 0in">Wij hebben met Solidworks gewerkt. Wij
+zijn begonnen met het ontwerpen van de bovenkant van het doosje. Een
+korte omschrijving van hoe wij te gang zijn gegaan:</P>
+<UL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Teken met de
+	extruded boss/base functie op de Front Plane een vierkant met de
+	hoogte en de breedte die je eerder hebt vastgesteld. Verlaat de
+	sketch en stel ook de diepte in. Je hebt nu een blok getekend.</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Met de shell functie
+	kan je het blok ‘hol’ maken. Selecteer de vlakken (onder- en
+	voorwand) die je wil verwijderen en stel de wanddikte van 3.2mm in. 
+	</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Teken de onderkant 
+	op dezelfde manier als de bovenkant. Maak een blok met de extruded
+	boss/base functie. Houd rekening dat de bovenkant over de onderkant
+	heen schuift. Neem daarom 1 wanddikte plus tolerantie in van de
+	hoogte, breedte en lengte.</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Gebruik de shell
+	functie op de achter- en bovenwand.</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Met de extruded cut
+	functie kan je een gat maken in het doosje voor de micro-usb
+	aansluiting met de juiste afmeting en positie.</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Om ervoor te zorgen
+	dat de deksel maar op één manier op de onderkant van schuiven,
+	moeten er gleufjes komen waarin beide onderdelen precies in kunnen
+	passen. Maak op de bovenkant van het doosje een extruded boss/base
+	op de zijvlakte aan de binnenkant van het doosje, helemaal onderin.
+	Maak deze 1 wanddikte hoog en 1 wanddikte breed. Geef het de lengte
+	van het hele doosje. Doe dit aan beide zijden.</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Op de onderkant van
+	het doosje, maak een extruded cut aan de buitenkant onderin de hoek
+	van het doosje. Maak deze 1 wanddikte hoog en 1 wanddikte breed en
+	houd rekening met schuiftolerantie(0,4mm). Doe dit aan beide zijden.
+	De shell zou mee moeten veranderen, zo niet voer deze stap opnieuw
+	uit na de extruded cuts.</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Voeg fillets toe aan
+	alle randjes. 
+	</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Nu moet er alleen
+	nog een systeem komen voor het vastzetten van de deksel op het
+	doosje. In SolidWorks is er een ingebouwde clickfinger functie. Er
+	worden twee clickfingers geplaatst aan de deksel van het doosje.
+	Maak een extruded cut aan de bovenzijde van het doosje tegen de rand
+	aan, ongeveer op een vierde van de breedte. Gebruik de
+	spiegelfunctie om deze te dupliceren.</P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in">Voeg een clickfinger
+	toe op de zijde waar de extruded cut plaatsvindt, in de lengte van
+	het doosje en naar beneden gericht. Het kopje van de clickfinger
+	moet 0.25mm uitsteken i.v.m. tolerantie. Gebruik de spiegelfunctie
+	op de hele clickfinger om deze te dupliceren. 
+	</P>
+</UL>
+
+</P>
+								</p>
 								
 								
 							</div>                        
